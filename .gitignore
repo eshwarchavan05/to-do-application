@@ -1,8 +1,31 @@
+# Dependencies
 node_modules/
+
+# Environment variables
 .env
-.DS_Store
+.env.local
+.env.development
+.env.production
+
+# Logs
 *.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build folders
 build/
 dist/
-.env.local
-.env.production
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor folders
+.vscode/
+.idea/
+
+# Optional cache
+.cache/
+# system
+.DS_Store
